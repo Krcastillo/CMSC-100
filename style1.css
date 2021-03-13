@@ -1,0 +1,55 @@
+header{
+	background-color: lightgray;
+	padding: 30px;
+	text-align: left;
+	font-family: courier;
+	color: gray;
+}
+
+.column {
+	float: left;	
+}
+
+.left {
+	width: 30%;
+
+}
+
+.right{
+	width: 70%;
+
+}
+
+.row: after{
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+body {
+	margin: 0;
+	overflow-x:hidden;
+}
+
+h1 {
+	color: black;
+	font-family: courier;
+}
+
+h2 {
+	margin-left : 50px;
+	color: slateblue;
+	font-family: courier;
+}
+
+h3 {
+	margin-left: 50px;
+	color:	slateblue;
+	font-family: courier;
+}
+
+pre {
+	color: black;
+	font-family: courier;
+	font-size: 18px;
+}
